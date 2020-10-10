@@ -54,3 +54,7 @@ select * from bot_test1.class1 ;
 
 -- 5. delete : table 에서 특정 행 삭제
 delete from bot_test1.class1 where number = 1;
+
+
+-- 데이터베이스 접속 테스르를 위한 계정 생성
+create user jerome@localhost identified by 'qwer123!@#';
